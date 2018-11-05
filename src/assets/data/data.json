@@ -1,0 +1,47 @@
+{
+  "education": {
+    "university": "Dalhousie University",
+    "major": "Bachelor of Computer Science"
+  },
+  "skills": {
+    "programSkills": "PHP, Java, HTML, CSS, JavaScript, Angular, MySQL, etc",
+    "nonProgramSkills": "Team Work, Time Management, Document Management, Planning, etc"
+  },
+  "experience": [{
+      "title": "Teaching Assistant",
+      "time": "Sep 2017 - Present",
+      "company": "Dalhousie University",
+      "duty": ["Tech Issues for Electronic Commerce (Examine the technologies and infrastructure to support the electronic commerce, graduate level) ", " Web Centric Computing(Advanced Website Development, third - year level) Sever Side Scripting(PHP as core language, second - year level)", "Introduction to Website Creation(Basic HTML, CSS, JavaScript and design principles, first - year level)", "Introduction to Computer System(Basic Computer System principle, logic, hardware, memory, etc., first - year level)"]
+    },
+    {
+      "title": "Front Desk Assistant",
+      "time": "Sep 2015 - Dec 2017",
+      "company": "Dalhousie University",
+      "duty": ["Assisted students to make appointments with advisors;", "Answered the phones for International centre at front desk;", "Assisted staffs at International Centre with document working, file managing."]
+    },
+    {
+      "title": "Peer Supporter",
+      "time": "Aug 2017 - Aug 2017",
+      "company": "Dalhousie University",
+      "duty": ["Assisted students to apply study permit, temporary resident visa, COOP work permit, etc"]
+    },
+    {
+      "title": "Web/Mobile Application Developer",
+      "time": "May 2017 - May 2018",
+      "company": "Freshook",
+      "duty": ["Developed the frontend with HTML, CSS, JavaScript, TypeScript and the backend with PHP. ", "Used angle development with version control system.", "Managed related documents and organized the project with Jira System "]
+    },
+    {
+      "title": "Internship",
+      "time": "June 2015 - July 2015",
+      "company": "Guotai Junan Securities Co., Ltd",
+      "duty": ["Repair the Computer and Laptop"]
+    }
+  ],
+  "volunteerExperience": {
+    "title": "Volunteer",
+    "time": "2015 - 2017",
+    "company": "Dalhousie International Centre",
+    "duty": ["Assisted the volunteer coordinator in New Students Orientation", "Organized the welcome desk to answer questions accurately for new students"]
+  }
+}

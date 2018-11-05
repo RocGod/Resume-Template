@@ -1,0 +1,45 @@
+<dl *ngIf="info">
+  <dd class="clear"></dd>
+  <dt>
+    <h1>Education</h1>
+  </dt>
+  <dd class="clear"></dd>
+  <dd>
+    <h2>{{info.education.university}}</h2>
+    <p><strong>Major: </strong>{{info.education.major}}</p>
+  </dd>
+
+  <dt>
+    <h1>Skills</h1>
+  </dt>
+  <dd class="clear"></dd>
+  <dd>
+    <h2>Program Skills</h2>
+    <p>{{info.skills.programSkills}}</p>
+    <h2>Non-Program Skills</h2>
+    <p>{{info.skills.nonProgramSkills}}</p>
+  </dd>
+
+  <dt>
+    <h1>Experience</h1>
+  </dt>
+  <dd class="clear"></dd>
+  <dd *ngFor="let exp of info.experience">
+    <h2>{{exp.title}} <span>{{exp.company}} ~ {{exp.time}}</span></h2>
+    <ul *ngFor="let duty of exp['duty']">
+      <li>{{duty}}</li>
+    </ul>
+  </dd>
+
+  <dt>
+    <h1>Volunteer Experience</h1>
+  </dt>
+  <dd class="clear"></dd>
+  <dd>
+    <h2>{{info.volunteerExperience.title}}<span>{{info.volunteerExperience.company}} ~
+        {{info.volunteerExperience.time}}</span></h2>
+    <ul *ngFor="let duty of info.volunteerExperience['duty']">
+      <li>{{duty}}</li>
+    </ul>
+  </dd>
+</dl>
