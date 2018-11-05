@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Page material
+
+In asset directory, there is a data folder which contains a JSON file that has my personal experience, you can change the content to yours. In images folder, there is my own photo, please don't use my Photo in other websites as material.
